@@ -1,10 +1,11 @@
 {
   "name": "@metaverse-systems/position_component",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./autogen.sh && ./configure && make"
+    "build": "the-seed-libraries-build; the-seed-build",
+    "build-win64": "the-seed-libraries-build Win64; the-seed-build Win64"
   },
   "repository": {
     "type": "git",
